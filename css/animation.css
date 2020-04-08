@@ -1,0 +1,26 @@
+@keyframes headerLogo {
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+@keyframes outLeft {
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
+@keyframes outBot {
+  100% {
+    opacity: 1;
+    bottom: 0;
+  }
+}
+@keyframes form {
+  100% {
+    opacity: 1;
+    bottom: 0;
+  }
+}
+
+/*# sourceMappingURL=animation.css.map */

@@ -1,0 +1,33 @@
+@keyframes headerLogo {
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes headerForm {
+  100% {
+    opacity: 1;
+    bottom: 0;
+  }
+}
+
+@keyframes onHorizon {
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes onVertical {
+  100% {
+    opacity: 1;
+    bottom: 0;
+  }
+}
+
+@keyframes loader {
+  100% {
+    opacity: 0;
+  }
+}
