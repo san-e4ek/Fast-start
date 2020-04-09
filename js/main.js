@@ -149,3 +149,40 @@ setTimeout(() => {
 }, 2000);
 
 // --------------------------------------------------------
+
+// Ссылки кнопок ------------------------------------------
+
+$('.btn-primary, .btn-inverse, .btn-brick, .btn-min').css('outline', 'none');
+
+let $btns = [
+    {
+        btn: '.header .btn-primary',
+        trigger: '.intro'
+    }, {
+        btn: '.intro .btn-inverse',
+        trigger: '.feature-1'
+    }, {
+        btn: '.header .btn-inverse',
+        trigger: '.package'
+    }, {
+        btn: '.middle .btn-brick',
+        trigger: '.info'
+    }, {
+        btn: '.feature-2 .btn-inverse',
+        trigger: '.package'
+    }, {
+        btn: '.package .btn-min',
+        trigger: '.info'
+    }
+];
+
+$btns.forEach(function (objBtn) {
+    $(objBtn.btn).click(function () {
+        $('html, body').animate({
+            scrollTop: $(objBtn.trigger).offset().top
+
+        }, 'slow');
+    });
+});
+
+// --------------------------------------------------------

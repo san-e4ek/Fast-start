@@ -97,6 +97,7 @@ body a {
 }
 .btn-primary:hover {
   color: #3eb0f7;
+  border-color: #3eb0f7;
   background: transparent;
 }
 
@@ -498,6 +499,10 @@ body a {
 .package__option {
   border: 1px solid #d1d1d1;
   padding: 7px 0;
+  transition: 0.8s ease;
+}
+.package__option:hover {
+  transform: translateY(10px);
 }
 @media (max-width: 767px) {
   .package__option {
